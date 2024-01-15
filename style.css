@@ -467,7 +467,7 @@ form.search input {
 form.search :where(span, button) {
   position: absolute;
   top: 0;
-  padding: 0.55em 1.5em;
+  padding: 0 1.5em;
   font-size: 1em;
   color: var(--light-text-color);
   height: var(--percent100);
@@ -587,7 +587,7 @@ form.search button:hover {
   }
 
   .header-main .right {
-    max-width: 500px;
+    max-width: 600px;
     margin-left: auto;
   }
   /* Departments menu */
@@ -599,6 +599,7 @@ form.search button:hover {
     border: 1px solid var(--border-color);
     border-top: 0;
     border-bottom: 0;
+    padding: 0 1.5em;
   }
   .dpt-menu > ul > li > a {
     font-weight: var(--fw5);
@@ -612,19 +613,16 @@ form.search button:hover {
     top: 0;
     left: var(--percent100);
     width: var(--percent100);
-    /* width: 300px; */
     height: auto;
     min-height: var(--percent100);
-    padding: 1.5em;
+    padding: 0 1.5em;
     font-size: var(--font-small);
     line-height: 2.5em;
     border: 1px solid var(--border-color);
     border-top: 0;
-    border-bottom: 0;
     display: none;
-    background-position: right top;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: right bottom;
   }
 
   /* show first sub menu */
